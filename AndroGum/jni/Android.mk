@@ -8,7 +8,7 @@ LOCAL_SRC_FILES 			:= libfrida-gumjs.a
 include $(PREBUILT_STATIC_LIBRARY)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE 		:= vp
+LOCAL_MODULE 		:= androgum
 
 LOCAL_SRC_FILES		:= main.cpp
 
