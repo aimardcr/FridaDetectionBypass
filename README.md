@@ -48,5 +48,5 @@ But let's say found a way to inject a library to the target process, then you ca
 It injects the script directly through the memory without needing a gadget.\
 
 Compile [AndroGum](AndroGum) using NDK and use the library to inject a script.
-## Note
+## Notes
 Don't forget to download [libfrida-gumjs.a](https://github.com/frida/frida/releases) and put it in the same dir as Android.mk.
