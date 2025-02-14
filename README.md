@@ -39,8 +39,6 @@ When frida gadget is injected to a process, it will leave some Artifacts especia
 To bypass or detect this behavior, we can use a customized frida-server such as:
 - https://github.com/hzzheyang/strongR-frida-android
 
-Don't forget to download [libfrida-gumjs.a](https://github.com/frida/frida/releases) and put it in the same dir as Android.mk.
-
 ## Notes
 It is recommended that you build the frida yourself so that any string artifacts are changed incase the developer already flagged the binaries in the repo release.
 
@@ -50,3 +48,5 @@ But let's say found a way to inject a library to the target process, then you ca
 It injects the script directly through the memory without needing a gadget.\
 
 Compile [AndroGum](AndroGum) using NDK and use the library to inject a script.
+# Note
+Don't forget to download [libfrida-gumjs.a](https://github.com/frida/frida/releases) and put it in the same dir as Android.mk.
